@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Add the image here using an image drawable -->
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/bg"/>
+    </item>
+    <item>
+        <!-- Add the blur effect here using a blur drawable -->
+        <shape android:shape="rectangle">
+            <solid android:color="#88FFFFFF" />
+<!--            <corners android:radius="8dp" />-->
+        </shape>
+    </item>
+    <item>
+        <!-- Add the color overlay here using a color drawable -->
+        <shape android:shape="rectangle">
+            <solid android:color="#39000000" />
+<!--            <corners android:radius="8dp" />-->
+        </shape>
+    </item>
+</layer-list>

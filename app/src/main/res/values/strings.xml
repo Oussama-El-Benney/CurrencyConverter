@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Devise</string>
+    <string name="titre">Devise</string>
+    <string name="def">Follow latest Devise changes</string>
+    <string name="name">"Enter your Name "</string>
+    <string name="play">Start </string>
+    <string name="convert">Convert </string>
+    <string name="notifErreur">Please enter your username</string>
+    <string name="notifErreurValue">Please enter a Value</string>
+    <string name="notifDev">This feature is under development</string>
+    <string name="header">Currency Converter</string>
+    <string name="warn">This is for educational purposes only.</string>
+
+    <string-array name="spinner_items">
+        <item>TND – Tunisian Dinar</item>
+        <item>USD – US Dollar</item>
+        <item>EUR – Euro</item>
+        <item>GBP – British Pound</item>
+        <item>CAD – Canadian Dollar</item>
+        <item>JPY – Japanese Yen</item>
+        <item>CHF – Swiss Franc</item>
+    </string-array>
+</resources>

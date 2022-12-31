@@ -60,22 +60,22 @@ public class ConvertActivity extends AppCompatActivity {
                     Double x1 = Double.parseDouble(s1);
                     switch (convertTo) {
                         case "USD – US Dollar":
-                            tvResult.setText(String.format("%.2f", x1 * 3.11));
+                            tvResult.setText(String.format("%.2f", x1 / 3.11));
                             break;
                         case "EUR – Euro":
-                            tvResult.setText(String.format("%.2f", x1 * 3.32));
+                            tvResult.setText(String.format("%.2f", x1 / 3.32));
                             break;
                         case "GBP – British Pound":
-                            tvResult.setText(String.format("%.2f", x1 * 3.75));
+                            tvResult.setText(String.format("%.2f", x1 / 3.75));
                             break;
                         case "CAD – Canadian Dollar":
-                            tvResult.setText(String.format("%.2f", x1 * 2.28));
+                            tvResult.setText(String.format("%.2f", x1 / 2.28));
                             break;
                         case "JPY – Japanese Yen":
-                            tvResult.setText(String.format("%.2f", x1 * 0.02));
+                            tvResult.setText(String.format("%.2f", x1 / 0.02));
                             break;
                         case "CHF – Swiss Franc":
-                            tvResult.setText(String.format("%.2f", x1 * 3.34));
+                            tvResult.setText(String.format("%.2f", x1 / 3.34));
                             break;
                         default:
                             System.out.println("Looking forward to continue");
